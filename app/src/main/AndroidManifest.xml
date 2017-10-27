@@ -14,6 +14,9 @@
     <!-- use only when Scoped Directory Access API is not available -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
+    <!-- shizuku v2 -->
+    <uses-permission-sdk-23 android:name="moe.shizuku.manager.permission.API_V23" />
+
     <application
         android:name=".FFMApplication"
         android:allowBackup="true"
