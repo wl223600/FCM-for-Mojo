@@ -11,6 +11,9 @@
     <!-- install to /system/priv-app to grant the permission -->
     <uses-permission android:name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME" />
 
+    <!-- use only when Scoped Directory Access API is not available -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:name=".FFMApplication"
         android:allowBackup="true"
