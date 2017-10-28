@@ -95,6 +95,12 @@
             android:name="io.fabric.ApiKey"
             android:value="14724a50f9b4697ae7e68998e3a3004758c84b56" />
 
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:theme="@style/AppTheme.Translucent"
+            android:exported="false"
+            tools:replace="android:theme" />
+
     </application>
 
 </manifest>
